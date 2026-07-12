@@ -92,11 +92,12 @@ export function HeroSection() {
                 transition={{ delay: 0.35, duration: 0.9 }}
                 className="mt-5 flex max-w-[15rem] flex-col items-center gap-1 text-center font-serif font-semibold text-[11.5px] leading-6 tracking-[0.2em] text-[#6f685f] sm:max-w-[16rem] sm:text-[11px]"
               >
-                <span>Mr. Ahamed Ali &amp; Mrs. Sabeena</span>
+                
+                <span>Mr. Samiullah &amp; Mrs. Saira</span>
                 <span className="text-[9px]  tracking-[0.24em] text-[#8f8880] sm:text-[10px]">
                   together with
                 </span>
-                <span>Mr. Samiullah &amp; Mrs. Saira</span>
+                <span>Mr. Ahamed Ali &amp; Mrs. Sabeena</span>
            
               </motion.div>
               <motion.p
