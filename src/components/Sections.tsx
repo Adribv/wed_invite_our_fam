@@ -86,11 +86,11 @@ export function HeroSection() {
                 With the blessings of Allah
               </motion.p>
 
-              <motion.div
+          <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.35, duration: 0.9 }}
-                className="mt-5 flex max-w-[15rem] flex-col items-center gap-1 text-center font-serif text-[12px] leading-6 tracking-[0.2em] text-[#7d776f] sm:max-w-[16rem] sm:text-[11px]"
+                className="mt-5 flex max-w-[15rem] flex-col items-center gap-1 text-center font-serif font-semibold text-[11.5px] leading-6 tracking-[0.2em] text-[#6f685f] sm:max-w-[16rem] sm:text-[11px]"
               >
                 <span>Mr. Ahamed Ali &amp; Mrs. Sabeena</span>
                 <span className="text-[9px]  tracking-[0.24em] text-[#8f8880] sm:text-[10px]">
